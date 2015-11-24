@@ -10,7 +10,7 @@ server, then you can run the container with a command like this:
       -v $HOME/.chef:$HOME/.chef \
       -v $HOME/.ssh:$HOME/.ssh \
       -v /etc/passwd:/etc/passwd -v /etc/group:/etc/group \
-      -u 1000:1000 -e HOME=$HOME -w $HOME ksylvan/docker_chefdk bash
+      -u 1000:1000 -e HOME=$HOME -w $HOME kayvan/docker_chefdk bash
 
 You can now use `berks` and `knife` commands in the container.
 
